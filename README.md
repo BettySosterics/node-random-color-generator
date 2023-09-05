@@ -2,7 +2,7 @@
 
 When a user enters node index.js in the command line, a block of approximately 31x9 # characters colored with a random color (using hex code, e.g. #ff0000) should be generated.
 
-[ ] find a library on how to print 31x9 #
+[x] create const to print the block
 [x] find a library for random coloring
 
 In addition to node index.js, it should also be able to accept the request for a:
