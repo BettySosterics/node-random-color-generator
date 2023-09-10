@@ -5,9 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  argv:
-    specifier: ^0.0.3
-    version: 0.0.3
   chalk:
     specifier: ^5.3.0
     version: 5.3.0
@@ -16,6 +13,9 @@ dependencies:
     version: 0.6.2
 
 devDependencies:
+  '@types/argv':
+    specifier: ^0.0.5
+    version: 0.0.5
   '@types/randomcolor':
     specifier: ^0.5.7
     version: 0.5.7
@@ -373,6 +373,10 @@ packages:
       fastq: 1.15.0
     dev: true
 
+  /@types/argv@0.0.5:
+    resolution: {integrity: sha512-cWna1Y4teif/6PA9JA33RpLfO5eztL+2HRDSJ3GF3Kk7+2nOGwDFPcXIUYTcEYXJt10qwYywhjFMYb0ajUiYpQ==}
+    dev: true
+
   /@types/eslint@8.44.2:
     resolution: {integrity: sha512-sdPRb9K6iL5XZOmBubg8yiFp5yS/JdUDQsq5e6h95km91MCYMuvp7mh1fjPEYUhvHepKpZOjnEaMBR4PxjWDzg==}
     dependencies:
@@ -681,12 +685,6 @@ packages:
   /argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
     dev: true
-
-  /argv@0.0.3:
-    resolution: {integrity: sha512-T/78+mAFUtUoCCdEiXzMwumwX490tUCQwMiKrr2DVEM90uvkiQqI3izIF5GXgCDAet1NAlPsKTV63wNc4wuIag==}
-    engines: {node: '>=0.6.10'}
-    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
-    dev: false
 
   /aria-query@5.3.0:
     resolution: {integrity: sha512-b0P0sZPKtyu8HkeRAfCq0IfURZK+SuwMjY1UXGBU27wpAiTwQAIlq56IbIO+ytk/JjS1fMR14ee5WBBfKi5J6A==}
